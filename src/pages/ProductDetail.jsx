@@ -28,16 +28,18 @@ const ProductDetail = () => {
     <>
       <div className="container text-center mb-5">
         <div className="row">
-          <img
-            src={product?.images[0]}
-            alt=""
-            style={{ height: "70vh", width: "50vw" }}
-          />
-          <h2>{product?.title}</h2>
-          <p>{product?.description}</p>
-          <strong>Price: ${product?.price}</strong>
-          <br />
-          <strong>Ratings: {product?.rating}</strong>
+          <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+            <img
+              src={product?.images[0]}
+              alt=""
+              style={{ height: "70vh", width: "50vw" }}
+            />
+            <h2>{product?.title}</h2>
+            <p>{product?.description}</p>
+            <strong>Price: ${product?.price}</strong>
+            <br />
+            <strong>Ratings: {product?.rating}</strong>
+          </div>
         </div>
       </div>
     </>

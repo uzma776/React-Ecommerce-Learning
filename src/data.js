@@ -45,3 +45,4 @@ export const products = [
     price: 1000,
   },
 ];
+export const Categories = ["all","beauty","furniture","groceries","fragrances"]
